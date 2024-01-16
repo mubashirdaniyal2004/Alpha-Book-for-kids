@@ -1,0 +1,89 @@
+body {
+  font-family: "YourExternalFontFamily", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#alphabet-list {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 2px 30px red;
+}
+
+#alphabet-list a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+#content {
+  padding: 50px;
+}
+
+.alphabet-page {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.alphabet-page::first-letter {
+  font-size: 50px;
+  color: red;
+  text-shadow: 1px 1px 10px red, 0 0 5em blue, 0 0 0.5em blue;
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked + #goToTop {
+  display: block;
+}
+
+img {
+  width: 400px;
+}
+
+div {
+  border: 2px solid black;
+  box-shadow: 1px 2px 30px;
+}
+
+.but {
+  width: 100%;
+  padding: 1em;
+  background-color: lightcoral;
+  box-shadow: 1px 2px 30px;
+}
+
+.but:hover {
+  background-color: darkolivegreen;
+  box-shadow: 1px 2px 30px orange;
+}
+
+.next {
+  text-align: left;
+  vertical-align: bottom;
+  padding: 1em;
+  float: right;
+  text-decoration: none;
+  color: yellowgreen;
+  text-shadow: 5px 3px 10px red, 0 0 5em blue, 0 0 0.5em red;
+}
+
+.click {
+  padding: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+div:hover {
+  border-radius: 2% solid red;
+  box-shadow: 1px 1px 20px darkblue;
+  border: 4px solid black;
+}
